@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Software Raytracer",
+    "description": "A basic raytracer written from scratch",
+    "tech": "C++, Lua, stb",
+    "image": "https://github.com/CatB1t/raytracer/raw/main/images/example.bmp",
+    "link": "https://github.com/CatB1t/raytracer"
+  },
+  {
+    "title": "Object Detection",
+    "description": "CS:GO (Game) Object Detection using YOLOv5",
+    "tech": "Python, YoloV5, OpenCV, PyTorch",
+    "image": "https://github.com/CatB1t/ObjectDetectionYOLO/raw/master/images/example.jpg",
+    "link": "https://github.com/CatB1t/ObjectDetectionYOLO"
+  },
+  {
+    "title": "Aker",
+    "description": "A simple 3D renderer wtih OpenGL",
+    "tech": "C++, OpenGL, ImGui, GLFW, GLAD",
+    "image": "",
+    "link": "https://github.com/CatB1t/Aker"
+  }
+]
