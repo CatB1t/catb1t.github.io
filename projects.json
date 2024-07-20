@@ -19,5 +19,12 @@
     "tech": "C++, OpenGL, ImGui, GLFW, GLAD",
     "image": "",
     "link": "https://github.com/CatB1t/Aker"
+  },
+  {
+    "title": "Img2ASCII",
+    "description": "Convert Images to ASCII art",
+    "tech": "C++, STB",
+    "image": "https://github.com/CatB1t/img2ascii/raw/main/images/example.png",
+    "link": "https://github.com/CatB1t/img2ascii"
   }
 ]
