@@ -20,6 +20,7 @@ body {
   flex-direction: row;
   align-items: center;
   width: 800px;
+  margin-bottom: 1vh;
 }
 
 .info {
@@ -110,7 +111,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 1vh;
+  margin-bottom: 1vh;
 }
 
 .container-header {
@@ -120,7 +121,7 @@ body {
 
 .publication {
   width: 800px;
-  height: 150px;
+  max-height: 150px;
   padding: 0;
   margin-top: 20px;
   display: flex;
