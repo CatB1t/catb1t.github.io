@@ -21,6 +21,13 @@
     "link": "https://github.com/CatB1t/Aker"
   },
   {
+    "title": "The Office",
+    "description": "Brackey's Game Jam 2021 Game Entry. Made in 6 days.",
+    "tech": "C#, Unity",
+    "image": "/static/projects/the_office.png",
+    "link": "https://github.com/CatB1t/TheOffice"
+  },
+  {
     "title": "Img2ASCII",
     "description": "Convert Images to ASCII art",
     "tech": "C++, STB",
