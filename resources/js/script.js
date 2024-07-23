@@ -5,9 +5,13 @@ document.addEventListener('DOMContentLoaded', function() {
       const projectsContainer = document.getElementById('projects-container');
       data.forEach(project => {
         const projectElement = document.createElement('div');
+        image_path = project.image;
+        if (image_path == "") {
+          image_path = "/static/projects/placeholder.png";
+        }
         projectElement.innerHTML = `
           <div class="project">
-            <img src="${project.image}" alt="Logo">
+            <img src="${image_path}" alt="Logo">
             <div class="project-text">
               <div class="project-header">
                 <div class="project-name">${project.title}</div>
