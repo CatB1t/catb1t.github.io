@@ -28,6 +28,13 @@
     "link": "https://github.com/CatB1t/TheOffice"
   },
   {
+    "title": "BingoBango",
+    "description": "Platformer game published on Steam.",
+    "tech": "C#, Unity, Steamworks SDK",
+    "image": "/static/projects/bingo_bango.png",
+    "link": "https://store.steampowered.com/app/924280/BingoBango/"
+  },
+  {
     "title": "Img2ASCII",
     "description": "Convert Images to ASCII art",
     "tech": "C++, STB",
