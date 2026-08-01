@@ -1,5 +1,12 @@
 [
   {
+    "title": "Ptah",
+    "description": "A real-time 3D rendering engine featuring a forward pipeline with Lambert and PBR shading, a hot-reloading shader preprocessor, and a post-processing stack (bloom, HDR, gamma correction, anti-aliasing).",
+    "tech": "C++, OpenGL, ImGui, Assimp, GLAD, CMake",
+    "image": "/static/projects/ptah.png",
+    "link": "https://github.com/CatB1t/ptah"
+  },
+  {
     "title": "Software Raytracer",
     "description": "A basic raytracer written from scratch",
     "tech": "C++, Lua, stb",
@@ -12,13 +19,6 @@
     "tech": "Python, YoloV5, OpenCV, PyTorch",
     "image": "https://github.com/CatB1t/ObjectDetectionYOLO/raw/master/images/example.jpg",
     "link": "https://github.com/CatB1t/ObjectDetectionYOLO"
-  },
-  {
-    "title": "Aker",
-    "description": "A simple 3D renderer wtih OpenGL",
-    "tech": "C++, OpenGL, ImGui, GLFW, GLAD",
-    "image": "",
-    "link": "https://github.com/CatB1t/Aker"
   },
   {
     "title": "The Office",
