@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         projectElement.innerHTML = `
           <div class="project">
-            <img src="${image_path}" alt="Logo">
+            <a href="${project.link}" target="_blank"><img src="${image_path}" alt="Logo"></a>
             <div class="project-text">
               <div class="project-header">
                 <div class="project-name">${project.title}</div>
