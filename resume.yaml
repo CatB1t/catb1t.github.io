@@ -47,7 +47,7 @@ cv:
           - "Diagnosed and resolved nondeterministic prompt behavior that led to large-scale cache inconsistencies, improving correctness and cache efficiency."
           - "Expanded multi-provider LLM support by migrating to a LiteLLM based abstraction layer."
           - "Developed a cost tracking infrastructure for LLM usage, improving visibility and control over API spend."
-          - "Established a testing infrastructure (custom fixtures and decorators) to improve the reliability, debuggability, and execution speed of test suite."
+          - "Established a testing infrastructure (custom fixtures and decorators) to improve the reliability, debuggability, and execution speed of the test suite."
           - "Designed and implemented end-to-end tracing and metrics for LLM requests, improving observability, debugging speed, and system reliability."
 
       - company: "Atomica"
@@ -58,9 +58,9 @@ cv:
         highlights:
           - "Created comprehensive visual examples to demonstrate library usage, enabling developers to easily understand and effectively utilize the API."
           - "Enhanced CI workflows to ensure more stable releases and a streamlined development process."
-          - "Integrated run-time sanitizers to enhance code reliability and debug various issues."
-          - "Incorporated static analysis tools into the code base, significantly improving code quality and reliability."
-          - "Optimized core functions, improving execution time from 5s to 1s, leading to a 5x speedup."
+          - "Integrated runtime sanitizers to enhance code reliability and debug various issues."
+          - "Incorporated static analysis tools into the codebase, significantly improving code quality and reliability."
+          - "Optimized core functions, improving execution time from 5s to 1s, leading to a 5× speedup."
 
       - company: "Unify"
         position: "Software Engineer"
@@ -113,7 +113,7 @@ cv:
         summary: "An interactive WebGL2 demo for understanding how shadow mapping works, written in vanilla JavaScript with gl-matrix."
 
       - name: "[The Office (Game)](https://github.com/CatB1t/TheOffice)"
-        summary: "Brackey's Game Jam 2021 submission, built in Unity and C# in 6 days."
+        summary: "Brackeys Game Jam 2021 submission, built in Unity and C# in 6 days."
 
       - name: "[Gumballs Rush (Game)](https://apps.apple.com/eg/app/gumballs-rush/id1485094098)"
         summary: "Built and shipped a hyper-casual mobile game in Unity and C#, covering gameplay mechanics, physics, and UI. Published live on the App Store."
