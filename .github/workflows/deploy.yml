@@ -25,8 +25,9 @@ jobs:
         with:
           python-version: "3.13"
 
+      # The [full] extra pulls in the Typst compiler that the PDF render needs.
       - name: Install RenderCV
-        run: pip install "rendercv==2.8"
+        run: pip install "rendercv[full]==2.8"
 
       - name: Render resume
         run: rendercv render resume.yaml
