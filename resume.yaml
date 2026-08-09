@@ -1,0 +1,125 @@
+design:
+  # theme: harvard
+  theme: engineeringresumes
+  page:
+    show_footer: false
+    show_top_note: false
+    size: us-letter 
+    top_margin: 0.3in
+    bottom_margin: 0.3in
+    left_margin: 0.3in
+    right_margin: 0.3in
+
+settings:
+  render_command:
+    dont_generate_pdf: false
+    dont_generate_html: false
+    dont_generate_markdown: false
+    dont_generate_typst: false
+    dont_generate_png: true
+
+cv:
+  name: "Mostafa Hany"
+  location: "Giza, Egypt"
+  email: "mstfa.hanyy@gmail.com"
+  phone: "+201028322108"
+  # website: "https://catb1t.github.io"
+  social_networks:
+    - network: "LinkedIn"
+      username: "catbit"
+    - network: "GitHub"
+      username: "CatB1t"
+
+  sections:
+    experience:
+      - company: "Unify"
+        position: "Software Engineer"
+        start_date: "2025-02"
+        end_date: "2026-04"
+        location: "Remote"
+        highlights:
+          - "Owned the development and maintenance of the Python SDK for the Unify API."
+          - "Increased logging throughput by 10× by redesigning the pipeline using asynchronous (asyncio-based) processing, reducing overhead in high-throughput environments."
+          - "Reduced system initialization time by 4× through improved dependency loading strategies."
+          - "Built and extended caching systems, including semantic caching for LLM interactions, reducing redundant requests, latency, and compute cost."
+          - "Implemented context compression and time-awareness mechanisms for long-running LLM workflows, enabling efficient handling of extended conversations within token constraints."
+          - "Refactored core agent execution loop into a modular, maintainable architecture, enabling easier extensibility and faster iteration on new features."
+          - "Diagnosed and resolved nondeterministic prompt behavior that led to large-scale cache inconsistencies, improving correctness and cache efficiency."
+          - "Expanded multi-provider LLM support by migrating to a LiteLLM based abstraction layer."
+          - "Developed a cost tracking infrastructure for LLM usage, improving visibility and control over API spend."
+          - "Established a testing infrastructure (custom fixtures and decorators) to improve the reliability, debuggability, and execution speed of test suite."
+          - "Designed and implemented end-to-end tracing and metrics for LLM requests, improving observability, debugging speed, and system reliability."
+
+      - company: "Atomica"
+        position: "Software Engineer (Computational Geometry)"
+        start_date: "2024-09"
+        end_date: "2025-02"
+        location: "Remote"
+        highlights:
+          - "Created comprehensive visual examples to demonstrate library usage, enabling developers to easily understand and effectively utilize the API."
+          - "Enhanced CI workflows to ensure more stable releases and a streamlined development process."
+          - "Integrated run-time sanitizers to enhance code reliability and debug various issues."
+          - "Incorporated static analysis tools into the code base, significantly improving code quality and reliability."
+          - "Optimized core functions, improving execution time from 5s to 1s, leading to a 5x speedup."
+
+      - company: "Unify"
+        position: "Software Engineer"
+        start_date: "2022-08"
+        end_date: "2024-01"
+        location: "Remote"
+        highlights:
+          - "Managed a team of five engineers."
+          - "Designed and implemented a proof-of-concept for a source-to-source transpiler to convert code between different deep learning frameworks, e.g., TensorFlow to PyTorch."
+          - "Redesigned the testing framework to improve modularity and readability, achieving a 50% reduction in code size and making code multiprocessing friendly."
+          - "Designed and implemented functionality to support the import of multiple instances of the framework with different backends at runtime, reducing the average test runtime from 120 to 10 seconds."
+          - "Designed and implemented an API backend generation feature using Python AST (Abstract Syntax Trees), allowing developers to generate a new API backend with only a few lines of configuration."
+          - "Extended the integration of property-based testing in the testing framework to specifically meet our requirements with less runtime overhead and reduced code."
+          - "Extended and maintained the Ivy framework support on Windows."
+          - "Added support for GPU testing in the testing framework."
+
+    publications:
+      - title: "Accelerating Deep Learning using Ivy"
+        authors:
+          - "Guillermo Sanchez-Brizuela"
+          - "Ved Patwardhan"
+          - "Matthew Barrett"
+          - "Paul Anderson"
+          - "**Mustafa Hani**"
+          - "Daniel Lenton"
+        journal: "NeurIPS"
+        # Unquoted int renders as a bare year; "2023" would render as "Jan 2023".
+        date: 2023
+
+    technical_skills:
+      - "Vulkan, OpenGL, WebGL2, C/C++, C#, Python, GLSL."
+      - "Rendering Techniques and Architecture, Real-time Rendering, Shader & Rendering Optimization, Profiling and Debugging."
+      - "Unity, raylib, SFML, three.js, ImGui, Assimp, GLM, GLFW, RenderDoc, Tracy, CMake, Premake."
+
+    education:
+      - institution: "Faculty of Computers & AI, Cairo University"
+        area: "Artificial Intelligence"
+        degree: "BSc"
+        date: "2024-09"
+        location: "Giza, Egypt"
+
+    personal_projects:
+      - name: "[Ptah (3D Renderer)](https://github.com/CatB1t/ptah)"
+        summary: "A real-time 3D rendering engine written in C++ with OpenGL, featuring a forward pipeline with Lambert and PBR shading, a hot-reloading shader preprocessor, and a post-processing stack (bloom, HDR, gamma correction, anti-aliasing). Uses ImGui for in-engine tooling and Assimp for model loading."
+
+      - name: "[Software Raytracer](https://github.com/CatB1t/raytracer)"
+        summary: "Cross-platform software raytracer built from scratch in C++. Supports lighting, shadows, and reflections, with an embedded Lua C API for scene configuration and stb for image output."
+
+      - name: "[Shadowmap Visualizer](https://catb1t.github.io/shadowmap_visualizer/)"
+        summary: "An interactive WebGL2 demo for understanding how shadow mapping works, written in vanilla JavaScript with gl-matrix."
+
+      - name: "[The Office (Game)](https://github.com/CatB1t/TheOffice)"
+        summary: "Brackey's Game Jam 2021 submission, built in Unity and C# in 6 days."
+
+      - name: "[Gumballs Rush (Game)](https://apps.apple.com/eg/app/gumballs-rush/id1485094098)"
+        summary: "Built and shipped a hyper-casual mobile game in Unity and C#, covering gameplay mechanics, physics, and UI. Published live on the App Store."
+
+      - name: "[BingoBango (Game)](https://steamcommunity.com/app/924280)"
+        summary: "A solo-developed 3D vertical platformer built in Unity and C# and released on Steam, featuring a custom character controller with physics-based jump and momentum, five difficulty levels, and Steamworks SDK integration."
+
+      - name: "[CS:GO Object Detection](https://github.com/CatB1t/ObjectDetectionYOLO)"
+        summary: "Detecting CS:GO objects with YOLOv5 and PyTorch in Python, using a custom OpenCV annotation script."
