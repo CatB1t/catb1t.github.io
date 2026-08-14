@@ -106,6 +106,9 @@ cv:
       - name: "[Ptah (3D Renderer)](https://github.com/CatB1t/ptah)"
         summary: "A real-time 3D rendering engine written in C++ with OpenGL, featuring a forward pipeline with Lambert and PBR shading, a hot-reloading shader preprocessor, and a post-processing stack (bloom, HDR, gamma correction, anti-aliasing). Uses ImGui for in-engine tooling and Assimp for model loading."
 
+      - name: "[2D Particle System](https://github.com/CatB1t/particle_system)"
+        summary: "A fully configurable 2D particle system library in C++20 with raylib and glm, supporting pluggable emitter shapes (point, line, circle, square) and per-particle velocity, color, scale, lifetime, and gravity."
+
       - name: "[Software Raytracer](https://github.com/CatB1t/raytracer)"
         summary: "Cross-platform software raytracer built from scratch in C++. Supports lighting, shadows, and reflections, with an embedded Lua C API for scene configuration and stb for image output."
 
